@@ -16,7 +16,7 @@ app.use(cors());
 
 // Подключение маршрутов
 app.use('/api/users', userRoutes);
-app.use('/api/purchases', purchaseRoutes);
+app.use('/api/purchases', purchaseRoutes);;
 app.use('/api/referrals', referralRoutes);
 app.use('/api/rewards', rewardRoutes);
 app.use('/api/leaderboard', leaderboardRoutes);
